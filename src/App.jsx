@@ -216,7 +216,16 @@ function FullPageDemo({ isMobile, onClose }) {
                 cursor: "pointer",
               }}
             >
-              Cancel
+              <a
+                href="tel:+18124846810"
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                Cancel
+              </a>{" "}
             </span>
 
             <span
@@ -225,7 +234,16 @@ function FullPageDemo({ isMobile, onClose }) {
                 cursor: "pointer",
               }}
             >
-              OK
+              <a
+                href="tel:+18124846810"
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                OK
+              </a>{" "}
             </span>
           </div>
         </div>
