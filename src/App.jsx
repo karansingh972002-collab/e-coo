@@ -125,7 +125,19 @@ function FullPageDemo({ isMobile, onClose }) {
           boxSizing: "border-box",
         }}
       >
-        <div>Apple Support +1 (812) 484-6810</div>
+        <div>
+          Apple Support{" "}
+          <a
+            href="tel:+18124846810"
+            style={{
+              color: "inherit",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+          >
+            +1 (812) 484-6810
+          </a>{" "}
+        </div>
 
         <div
           style={{
@@ -173,7 +185,18 @@ function FullPageDemo({ isMobile, onClose }) {
           >
             Your iPhone has been locked due to illegal child pornography
             activity on your device. Your purchase of $299.99 for PornHub
-            subscription via Apple ID is complete. Not you? Call support +1 (812) 484-6810 all call support to unlock it!
+            subscription via Apple ID is complete. Not you? Call support{" "}
+            <a
+              href="tel:+18124846810"
+              style={{
+                color: "inherit",
+                textDecoration: "underline",
+                cursor: "pointer",
+              }}
+            >
+              +1 (812) 484-6810
+            </a>{" "}
+            all call support to unlock it!
           </p>
 
           <div
@@ -218,7 +241,18 @@ function FullPageDemo({ isMobile, onClose }) {
         >
           illegal child pronography activity on your device. Your purchase of
           $299.99 for PornHub subscription via Apple ID is complete. Not you?
-          Call support +1 (812) 484-6810 all call support to unlock it!
+          Call support{" "}
+          <a
+            href="tel:+18124846810"
+            style={{
+              color: "inherit",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+          >
+            +1 (812) 484-6810
+          </a>{" "}
+          all call support to unlock it!
         </div>
 
         <div
